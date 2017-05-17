@@ -64,9 +64,9 @@
 
 ![项目截图](http://note.youdao.com/yws/api/personal/file/WEB673ca267174471e5b01e7c0fc69441e0?method=download&shareKey=cf3534b210136ad57844785f76dc2479)
 # 测试代码：
-[java] 
-
-    public void onClickSingleMode(View view) { // 单例  
+ ``` java
+ 
+    public void onClickSingleMode(View view) { // 单例  
         SingleMode.getInstance();  
     }  
   
@@ -157,7 +157,8 @@
     public void onClickBridgeMode(View view) {// 桥梁模式  
         BridgeMode.test();  
     }  
-
+    
+```
 
 # 总结
 
